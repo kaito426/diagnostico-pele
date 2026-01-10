@@ -40,7 +40,7 @@ export async function getSecureCheckoutUrl(currentHref?: string): Promise<string
     }
 
     // Default: Sempre retorna o oficial se nenhum outro for fornecido
-    return OFFICIAL_CHECKOUT;
+    return SECURE_CHECKOUT_URL;
 }
 
 /**

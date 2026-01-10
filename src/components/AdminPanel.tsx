@@ -115,8 +115,7 @@ export default function AdminPanel() {
                         <div className="space-y-4">
                             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(q => {
                                 const count = metrics.questionStats[q] || 0;
-                                const prevCount = q === 1 ? metrics.starts : (metrics.questionStats[q - 1] || count); // fallback
-                                const dropoff = prevCount > 0 ? Math.round(((prevCount - count) / prevCount) * 100) : 0;
+                                // prevCount was used for dropoff calculation which is currently disabled
                                 const percentage = metrics.starts > 0 ? Math.round((count / metrics.starts) * 100) : 0;
 
                                 return (
