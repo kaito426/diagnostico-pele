@@ -329,8 +329,8 @@ export default function ResultPage({ skinType }: Props) {
                             <div className="grid gap-4">
                                 {[
                                     { name: "Célia M.", loc: "Maputo", text: "Epa no início achei que fosse burla 🤣 mas recebi tudo na hora! A rotina é simples e já tou a ver diferença. 2026 é meu! 💅" },
-                                    { name: "Jéssica T.", loc: "Matola", text: "Finalmente sei o que usar na minha pele. Gastava bué em cremes caros e não dava em nada. Agora com 200 meticais resolvi o problema 🔥" },
-                                    { name: "Ana P.", loc: "Beira", text: "O grupo do WhatsApp é fixe demais! As manas lá ajudam mesmo. Já não me sinto sozinha nessa luta contra as borbulhas 😅" },
+                                    { name: "Jéssica T.", loc: "Matola", text: "Finalmente sei o que usar na minha pele. Gastava muito em cremes caros e não dava em nada. Agora com 200 meticais resolvi o problema 🔥" },
+                                    { name: "Ana P.", loc: "Beira", text: "O grupo do WhatsApp é bom demais! As manas lá ajudam mesmo. Já não me sinto sozinha nessa luta contra as borbulhas 😅" },
                                     { name: "Sofia L.", loc: "Maputo", text: "Kkkk eu era daquelas que comprava tudo que via no TikTok. Agora só uso o que faz sentido pra minha pele mista. Valeu cada metical 💕" },
                                 ].map((t, i) => (
                                     <div key={i} className="bg-white p-5 rounded-xl shadow-sm border border-white">
