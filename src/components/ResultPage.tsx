@@ -211,10 +211,10 @@ export default function ResultPage({ skinType }: Props) {
                                         </div>
                                         <div className="flex-1">
                                             <div className="flex justify-between items-start">
-                                                <h3 className="font-bold text-gray-900">Protocolo de Rotina Completa</h3>
+                                                <h3 className="font-bold text-gray-900">Protocolo Completo para Pele {skinType}</h3>
                                                 <span className="text-xs text-gray-400 line-through">500 MZN</span>
                                             </div>
-                                            <p className="text-xs text-gray-500 mt-1">PDF com rotina manhã e noite para pele {skinType.toLowerCase()}.</p>
+                                            <p className="text-xs text-gray-500 mt-1 leading-relaxed">Rotina prática, testada e fácil de seguir para reduzir brilho, acne e sensação de pele pesada — sem desperdício de produtos no seu tipo de pele.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@ export default function ResultPage({ skinType }: Props) {
                                                 <h3 className="font-bold text-gray-900">Lista de Compras Inteligente</h3>
                                                 <span className="text-xs text-gray-400 line-through">300 MZN</span>
                                             </div>
-                                            <p className="text-xs text-gray-500 mt-1">Versão Budget + Premium. Onde comprar em MZ.</p>
+                                            <p className="text-xs text-gray-500 mt-1 leading-relaxed">Saiba exatamente o que comprar, onde comprar em MZ e evite gastar dinheiro com produtos errados.</p>
                                         </div>
                                     </div>
                                 </div>
